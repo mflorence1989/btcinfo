@@ -1,4 +1,4 @@
-<h1> creste an article </h1>
+<h1> Edit existing post </h1>
 
 <% if @article.errors.any? %>
 <h2> Follow errors prevented the post from getting created </h2>
@@ -23,6 +23,5 @@
   <%= f.submit %>
 </p>
 
-<% end %>
-
-<%= link_to "Back to Post listing", articles_path %>
+  <% end %>
+  <%= link_to "Back to Post listing", articles_path %>
