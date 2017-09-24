@@ -13,11 +13,12 @@ class ArticlesController < ApplicationController
   end
 
   def edit
+
   @article = Article.find(params[:id])
 
-
-
   end
+
+
 
 
 
@@ -38,7 +39,7 @@ end
 
 def update
 
-  @article = Article.find(params[:id])
+@article = Article.find(params[:id])
 
 if @article.update(article_params)
 
@@ -56,8 +57,9 @@ end
 
 
 
-
 def show
+
+@article = Article.find(params[:id])
 
 end
 
