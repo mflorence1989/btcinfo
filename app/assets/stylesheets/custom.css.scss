@@ -76,3 +76,88 @@ footer a:hover {
 footer small {
   float: left;
 }
+
+html {
+  height: 100%;
+  background: #2c3338;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  position: relative;
+  Font-family: Montserrat;
+  font-weight: 350;
+  font-size: 35px;
+  margin: 0;
+}
+
+p {
+  position: relative;
+  Font-family: Montserrat;
+}
+
+#day_and_time {
+  position: relative;
+  border-spacing: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+
+#ticker_window {
+  position: relative;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  width: 300px;
+  background: #FFF;
+  padding: 1em;
+  margin: 6em auto;
+  border: 7px solid #7a9f9f;
+  box-shadow: 0px 30px 60px -5px #000;
+}
+
+.exchange {
+  color: #1D75B7;
+  padding: 0;
+  margin: 0;
+}
+
+#status,
+#exchange {
+  padding: 0;
+  margin: 0;
+}
+
+#ticker {
+  width: 200px;
+  max-height: 100px;
+  overflow: auto;
+  list-style: none;
+  font-size: 0.95rem;
+  direction: rtl;
+}
+
+.tick {
+  margin: auto;
+  text-align: center;
+}
+
+li {
+  width: 175px;
+  list-style-type: none;
+  text-align: left;
+}
+
+li.sell {
+  background-color: rgb(105, 199, 115);
+}
+
+li.buy {
+  background-color: rgb(199, 105, 105);
+}
