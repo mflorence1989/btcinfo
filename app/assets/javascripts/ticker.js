@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
   var socket = new WebSocket("wss://ws-feed.gdax.com");
   socket.onopen = function() {
@@ -18,9 +17,9 @@ $(document).ready(function() {
 
       var sign;
       if (msg["side"] == "sell") {
-        sign = "+\t";
+        sign = "▲\t";
       } else {
-        sign = "  -\t";
+        sign = "  ▼\t";
       }
       var time = new Date();
       var hours = time.getHours();
