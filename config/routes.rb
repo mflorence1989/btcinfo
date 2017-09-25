@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :articles
   get 'signup', to: 'users#new'
   get 'ticker', to: 'tickers#show'
+  get 'chart', to: 'charts#show'
 
 resources :users, except: [:new]
 end
