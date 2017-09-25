@@ -104,6 +104,7 @@ p {
   padding: 0;
   margin: 0;
   color: green;
+  text-align: center;
 }
 
 
@@ -114,19 +115,22 @@ p {
   right: 0;
   bottom: 0;
   left: 0;
-  height: auto;
-  width: 500px;
+  height: 1000px;
+  width: 1000px;
   background: black;
   padding: 1em;
   margin: 6em auto;
   border: 7px solid #7a9f9f;
   box-shadow: 0px 30px 60px -5px #000;
+  text-align: center;
+
 }
 
 .exchange {
   color: green;
   padding: 0;
   margin: 0;
+
 
 }
 
@@ -144,11 +148,14 @@ p {
   list-style: none;
   font-size: 15px;
   direction: rtl;
+  color: yellow;
+  text-align: center;
 }
 
 .tick {
   margin: auto;
   text-align: center;
+  
 }
 
 li {
