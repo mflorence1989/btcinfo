@@ -103,6 +103,7 @@ p {
   border-spacing: 0px;
   padding: 0;
   margin: 0;
+  color: green;
 }
 
 
@@ -114,8 +115,8 @@ p {
   bottom: 0;
   left: 0;
   height: auto;
-  width: 300px;
-  background: #FFF;
+  width: 500px;
+  background: black;
   padding: 1em;
   margin: 6em auto;
   border: 7px solid #7a9f9f;
@@ -123,23 +124,25 @@ p {
 }
 
 .exchange {
-  color: #1D75B7;
+  color: green;
   padding: 0;
   margin: 0;
+
 }
 
-#status,
+.status,
 #exchange {
   padding: 0;
   margin: 0;
+  color:green;
 }
 
 #ticker {
   width: 200px;
-  max-height: 100px;
+  max-height: 400px;
   overflow: auto;
   list-style: none;
-  font-size: 0.95rem;
+  font-size: 15px;
   direction: rtl;
 }
 
