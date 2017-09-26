@@ -1,7 +1,11 @@
 <html>
 <head>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+<script type="text/javascript" src="https://github.com/nagix/chartjs-plugin-streaming/releases/download/v1.1.0/chartjs-plugin-streaming.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.1.0/pusher.js"></script>
+
+
 </head>
 <body>
 
@@ -12,53 +16,47 @@
 <div class="container">
 
 
-  <canvas id="myChart" width="740" height="200"></canvas>
+  <canvas id="myChart"></canvas>
 </div>
 <script>
 
-var randomScalingFactor = function() {
-        return (Math.random() > 0.5 ? 1.0 : -1.0) * Math.round(Math.random() * 100);
-    };
-    var randomColorFactor = function() {
-        return Math.round(Math.random() * 255);
-    };
-var data = {
-        labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September"],
-        datasets: [{
-            label: 'Highest',
-            backgroundColor: "green",
-            data: [randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor()]
-        }, {
-        		label: 'Lowest',
-            backgroundColor: "red",
-            data: [randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor()]
-        }] 
-    };
 
+var ctx = document.getElementById('myChart').getContext('2d');
 
-var ctx = document.getElementById("myChart").getContext("2d");
 var chart = new Chart(ctx, {
-type: 'bar',
-data: data,
-options: {
-                title:{
-                    display:true,
-                    text:"Chart.js Bar Chart - Stacked"
-                },
-                tooltips: {
-                    mode: 'label'
-                },
-                responsive: true,
-                scales: {
-                    xAxes: [{
-                        stacked: true,
-                    }],
-                    yAxes: [{
-                        stacked: true
-                    }]
-                }
-            }
-})
+
+  type: 'line',
+
+  data: {
+
+    datasets: [{
+
+      data: [100,200,300,400,500,600]
+
+    },{
+
+      data: []
+
+    }]
+
+  },
+
+  options: {
+
+    scales: {
+
+      xAxes: [{
+
+        type: 'realtime'
+
+      }]
+
+    }
+
+  }
+
+});
+
 
 
 </script>
