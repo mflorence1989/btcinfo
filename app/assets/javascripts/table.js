@@ -1,6 +1,6 @@
 $(document).ready(function() {  
 time();
-   setInterval(time,3000)
+   setInterval(time,10)
 
 });
 
