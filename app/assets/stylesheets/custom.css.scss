@@ -72,6 +72,19 @@ $navbar-default-bg: black;
 
 }
 
+.nav.navbar-nav{
+  font-family: 'Aclonica'
+}
+
+.nav.navbar-nav > li > a {
+
+  color:green;
+
+  &:hover {
+color:white;
+  }
+}
+
 
 
 
