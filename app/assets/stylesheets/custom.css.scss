@@ -10,6 +10,7 @@ $navbar-default-bg: black;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
+  font-family: 'Aclonica'
 }
 
 #logo:hover{
@@ -49,6 +50,14 @@ $navbar-default-bg: black;
 
 }
 
+.jumbotron h1:hover{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+
+
 
 #bs-example-navbar-collapse-1{
   font-weight: bold;
@@ -60,6 +69,20 @@ $navbar-default-bg: black;
 
 
 
+
+}
+
+.nav.navbar-nav{
+  font-family: 'Aclonica'
+}
+
+.nav.navbar-nav > li > a {
+
+  color:green;
+
+  &:hover {
+color:white;
+  }
 }
 
 
