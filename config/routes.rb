@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'ticker', to: 'tickers#show'
   get 'chart', to: 'charts#show'
   get 'table', to: 'tables#show'
+  
 
 resources :users, except: [:new]
 end
