@@ -18,9 +18,9 @@ $(window).ready(function() {
 
       var sign;
       if (msg["side"] == "sell") {
-        sign = "Sell    \t";
+        sign = "Sell    ▲ \t";
       } else {
-        sign = "  Buy     \t";
+        sign = "  Buy  ▼   \t";
       }
       var time = new Date();
       var hours = time.getHours();
