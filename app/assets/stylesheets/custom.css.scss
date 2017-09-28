@@ -17,10 +17,16 @@ $navbar-default-bg: black;
   text-decoration: none;
 
 }
+
 .center{
   text-align: center;
+  box-shadow: 10px 10px 5px #888888;
 
 }
+
+
+
+
 
 .jumbotron{
   color:green;
@@ -30,7 +36,7 @@ $navbar-default-bg: black;
   text-transform: uppercase;
   background-color: black;
    background-size: cover;
-   
+
 
 
 
@@ -132,6 +138,11 @@ margin-left: 15px;
 
 }
 
+.footer{
+
+  color:black;
+}
+
 
 
 
@@ -218,6 +229,10 @@ p {
   color:green;
   font-size:20px;
 
+}
+
+.nav{
+  color:black;
 }
 
 
