@@ -5,10 +5,10 @@ $navbar-default-bg: black;
 
 #logo {
   float: left;
-  font-size: 1.7em;
-  color: #fff;
+  font-size: 25px;
+  color: green;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   font-weight: bold;
 }
 
@@ -19,7 +19,30 @@ $navbar-default-bg: black;
 }
 .center{
   text-align: center;
+
 }
+
+.jumbotron{
+  color:green;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 60px;
+  text-transform: uppercase;
+
+
+}
+
+#bs-example-navbar-collapse-1{
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+
+
+
+
+}
+
+
 
 .article-meta-details {
 
@@ -64,8 +87,8 @@ margin-top: 0;
 
 footer{
 
-  margin-top: 25px;
-  padding-top: 5px;
+  margin-top: 15px;
+  padding-top: 1px;
   border-top: 1 px solid #eaeaea;
   color: #777;
 }
