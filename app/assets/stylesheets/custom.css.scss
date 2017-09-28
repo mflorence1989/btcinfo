@@ -29,17 +29,27 @@ $navbar-default-bg: black;
   font-size: 60px;
   text-transform: uppercase;
   background-color: black;
+   background-size: cover;
+   
 
 
 
 }
+.jumbotron h1{
 
+  color: green;
+  font-family: 'Aclonica'
+
+
+}
 
 
 #bs-example-navbar-collapse-1{
   font-weight: bold;
   font-size: 15px;
   text-transform: uppercase;
+  font-family: 'Aclonica'
+
 
 
 
@@ -89,14 +99,39 @@ margin-top: 0;
 
 }
 
+footer a:hover {
 
-footer{
+color: black;
 
-  margin-top: 40px;
-  padding-top: 1px;
-  border-top: 1 px solid #eaeaea;
-  color: black;
 }
+
+footer small {
+
+float: left;
+
+color: black;
+
+}
+
+footer ul {
+
+float: right;
+
+list-style: none;
+
+color: black;
+
+}
+
+footer ul li {
+
+float: left;
+color: black;
+
+margin-left: 15px;
+
+}
+
 
 
 
@@ -112,7 +147,7 @@ html {
 
 h1 {
   position: relative;
-  Font-family: Montserrat;
+
 
   font-size: 35px;
   margin: 0;

@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).ready(function() {
   var socket = new WebSocket("wss://ws-feed.gdax.com");
   socket.onopen = function() {
     var msg = {
@@ -15,11 +15,12 @@ $(document).ready(function() {
     if (msg["type"] == "match") {
       var price = parseFloat(msg["price"]).toFixed(2);
 
+
       var sign;
       if (msg["side"] == "sell") {
-        sign = "Sell -  \t";
+        sign = "Sell    \t";
       } else {
-        sign = "  Buy -  \t";
+        sign = "  Buy     \t";
       }
       var time = new Date();
       var hours = time.getHours();
