@@ -19,12 +19,27 @@ $navbar-default-bg: black;
 }
 .center{
   text-align: center;
+
+}
+
+.jumbotron{
+  color:green;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 60px;
+  text-transform: uppercase;
+
+
 }
 
 #bs-example-navbar-collapse-1{
   font-weight: bold;
   font-size: 15px;
   text-transform: uppercase;
+
+
+
+
 }
 
 
@@ -72,8 +87,8 @@ margin-top: 0;
 
 footer{
 
-  margin-top: 25px;
-  padding-top: 5px;
+  margin-top: 15px;
+  padding-top: 1px;
   border-top: 1 px solid #eaeaea;
   color: #777;
 }
