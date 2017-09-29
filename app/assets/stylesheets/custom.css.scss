@@ -76,6 +76,14 @@ $navbar-default-bg: black;
   font-family: 'Aclonica'
 }
 
+.btn-primary{
+  color:green;
+}
+
+.btn-lg{
+  color:green;
+}
+
 .nav.navbar-nav > li > a {
 
   color:green;
@@ -128,43 +136,6 @@ margin-top: 0;
 
 }
 
-footer a:hover {
-
-color: black;
-
-}
-
-footer small {
-
-float: left;
-
-color: black;
-
-}
-
-footer ul {
-
-float: right;
-
-list-style: none;
-
-color: black;
-
-}
-
-footer ul li {
-
-float: left;
-color: black;
-
-margin-left: 15px;
-
-}
-
-.footer{
-
-  color:black;
-}
 
 
 
@@ -173,10 +144,11 @@ margin-left: 15px;
 
 html {
   height: 100%;
-  background: #2c3338;
+  background: black;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  color:black;
 }
 
 h1 {
