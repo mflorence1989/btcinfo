@@ -1,5 +1,4 @@
 $navbar-default-bg: black;
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -10,142 +9,117 @@ $navbar-default-bg: black;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: 'Aclonica'
+  font-family: 'Aclonica';
 }
 
-#logo:hover{
+#logo:hover {
   color: #fff;
   text-decoration: none;
-
 }
 
-.center{
+.center {
   text-align: center;
   box-shadow: 10px 10px 5px #888888;
 
 }
 
-
-
-
-
-.jumbotron{
-  color:green;
+.jumbotron {
+  color: green;
   font-weight: bold;
   letter-spacing: 3px;
   font-size: 60px;
   text-transform: uppercase;
   background-color: black;
-   background-size: cover;
-
-
-
-
+  background-size: cover;
 }
-.jumbotron h1{
 
+.jumbotron h1 {
   color: green;
-  font-family: 'Aclonica'
-
-
+  font-family: 'Aclonica';
 }
 
-.jumbotron h1:hover{
+.jumbotron h1:hover {
   color: #fff;
   text-decoration: none;
-
 }
 
-
-
-
-#bs-example-navbar-collapse-1{
+#bs-example-navbar-collapse-1 {
   font-weight: bold;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: 'Aclonica'
-
-
-
-
-
-
+  font-family: 'Aclonica';
 }
 
-.nav.navbar-nav{
-  font-family: 'Aclonica'
+.nav.navbar-nav {
+  font-family: 'Aclonica';
 }
 
-.btn-primary{
-  color:black;
+.btn-primary {
+  color: black;
   background-color: green;
-  font-family: 'Aclonica'
+  font-family: 'Aclonica';
+}
+.btn-danger{
+  color:black;
 }
 
+.a-article{
+  color:green;
+}
 
-.btn-lg{
-  color:black;
+.btn-lg {
+  color: black;
 }
 
 .nav.navbar-nav > li > a {
-
-  color:green;
+  color: green;
 
   &:hover {
-color:white;
+    color: white;
   }
 }
 
+.well well-lg{
 
+  color:black;
 
+}
 
 .article-meta-details {
-
-border-top: 1px solid #eaeaea;
-
-margin-top: 15px;
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
 
 }
 
 .article-actions {
-
-border-top: 1px solid #eaeaea;
-
-padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
 
 }
 
-.article-title {
+.article-title  {
+  font-weight: bold;
+  font-size: 1.5em;
+  color:black;
 
-font-weight: bold;
+  a:hover{
+    color:black;
 
-font-size: 1.5em;
+  }
+
+
 
 }
 
 .article-body {
-
-border-top: 1px solid #eaeaea;
-
-padding-top: 15px;
-
-padding-bottom: 15px;
-
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .description {
-
-margin-top: 0;
-
+  margin-top: 0;
 }
-
-
-
-
-
-
-
-
 
 html {
   height: 100%;
@@ -153,51 +127,48 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color:black;
+  color: black;
 }
 
 h1 {
   position: relative;
-
-
   font-size: 35px;
   margin: 0;
   color: green;
   letter-spacing: 2px;
   font-weight: bold;
-  font-family: 'Aclonica'
+  font-family: 'Aclonica';
 }
 
-.status{
-  font-family: 'Aclonica'
+.status {
+  font-family: 'Aclonica';
 }
 
-th{
+th {
   font-size: 30px;
-  font-family: 'Aclonica'
+  font-family: 'Aclonica';
 }
 
-td{
+td {
   font-size: 25px;
   background-color: black;
-  color:green;
-  font-family: 'Aclonica'
+  color: green;
+  font-family: 'Aclonica';
 }
 
 p {
   position: relative;
-  font-family: 'Aclonica'
+  font-family: 'Aclonica';
 }
 
 #day_and_time {
   position: relative;
-  border-spacing: 0px;
+  border-spacing: 0;
   padding: 0;
   margin: 0;
   color: green;
   text-align: center;
 }
-
 
 #ticker_window {
   position: relative;
@@ -213,11 +184,10 @@ p {
   background: black;
   padding: 1em;
   margin: 6em auto;
-  border: 7px ;
+  border: 7px;
   border-color: green;
-  box-shadow: 0px 30px 60px -5px ;
+  box-shadow: 0 30px 60px -5px;
   text-align: center;
-
 }
 
 .exchange {
@@ -225,45 +195,36 @@ p {
   padding: 0;
   margin: 0;
   font-size: 20px;
-  font-family: 'Aclonica'
-
-
+  font-family: 'Aclonica';
 }
 
-.status,
-#exchange {
+#exchange,
+.status {
   padding: 0;
   margin: 0;
-  color:green;
-  font-size:20px;
-font-family: 'Aclonica'
+  color: green;
+  font-size: 20px;
+  font-family: 'Aclonica';
 }
 
-.nav{
-  color:black;
+.nav {
+  color: black;
 }
-
-
 
 #ticker {
   width: 600px;
   max-height: 500px;
   overflow: auto;
-
   font-size: 25px;
   direction: inherit;
   color: black;
   text-align: center;
-
-
 }
 
 .tick {
-
   text-align: center;
   background-color: green;
   width: 500px;
-
 }
 
 li {
