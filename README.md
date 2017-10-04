@@ -1,15 +1,14 @@
-# README
+CryptoNet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This web application indicates to a user when he or she should buy or sell bitcoin (BTC).
 
-Things you may want to cover:
 
-* Ruby version
+* I used Ruby on Rails for the backend portion of my web application and Javscript, HTML & CSS, and bootstrap for the frontend. 
 
-* System dependencies
+* Page routes, user forum, and post creation were done in Ruby on Rails. 
 
-* Configuration
+
+* 
 
 * Database creation
 
