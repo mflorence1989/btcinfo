@@ -3,22 +3,21 @@ CryptoNet
 This web application indicates to a user when he or she should buy or sell bitcoin (BTC).
 
 
-* I used Ruby on Rails for the backend portion of my web application and Javscript, HTML & CSS, and bootstrap for the frontend. 
+* I used Ruby and Ruby on Rails for the backend portion of my web application. 
 
-* Page routes, user forum, and post creation were done in Ruby on Rails. 
+* Page routes, user forum, and post creation were done in Ruby and  Ruby on Rails. 
+
+* All user forum and post creation data are stored inside of a Ruby database.
 
 
-* 
 
-* Database creation
+* For the frontend portion of my web application I used Javascript, Bootstrap, Html &CSS.
 
-* Database initialization
+* The styling for CryptoNet was done in bootstrap along side a customized css file. 
 
-* How to run the test suite
+* All web api calls were done in Javscript.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* I created for loops to indicate when the BTC price increases(sell) and when the BTC decreases (buy).
 
 * ...
 # btcinfo
