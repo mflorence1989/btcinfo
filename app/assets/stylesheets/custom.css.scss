@@ -12,6 +12,11 @@ $navbar-default-bg: black;
   font-family: 'Aclonica';
 }
 
+.navbar-nav > li{
+  margin-left:30px;
+  margin-right:30px;
+}
+
 #logo:hover {
   color: #fff;
   text-decoration: none;
